@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.body{
+    background-color: tan;
+    height: 100vh;
+}
+
+nav{
+    background-color: black;
+    color: white;
+}
+
+ul{
+    width: fit-content;
+    margin: 0 auto;
+}
+
+li{
+    display: inline-block;
+    padding: 15px 30px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+li:hover{
+    background-color: grey;
+}
+
+.home-content{
+    margin: 0 15px;
+    margin-top: 100px;
+}
