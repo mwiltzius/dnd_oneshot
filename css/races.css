@@ -1,0 +1,20 @@
+.race-content, .race{
+    display: flex;
+    height: 100vh;
+}
+
+.race-content{
+    flex-direction: row;
+    align-items: stretch;
+    width: 100%;
+}
+
+.race{
+    outline: 1px dotted violet;
+    flex: 1;
+    cursor: pointer;
+}
+
+#dwarf{
+    background-color: brown;
+}

@@ -10,10 +10,11 @@
 
     color: white;
     padding: 15px;
+    overflow: hidden;
 }
 
 .class p{
-    padding: 10px;
+    padding: 20px 3px 10px;
 }
 
 .class:hover{
