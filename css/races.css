@@ -37,6 +37,7 @@
     text-orientation: sideways-right;
     font-size: 100px;
     left: 10px;
+    user-select: none;
 }
 
 #dragonborn{
@@ -100,7 +101,14 @@
 .race-description{
     display: inline-block;
     vertical-align: top;
-    margin-left: 20px
+    margin-left: 50px
+}
+
+.race-description h1{
+    font-size: 50px;
+    padding-bottom: 10px;
+    /* border-bottom: 2px solid black;
+    border-right: 20px solid black; */
 }
 
 .race-description p{

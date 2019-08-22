@@ -13,6 +13,10 @@
     overflow: hidden;
 }
 
+.class h1, p{
+    color: rgb(240, 240, 240);
+}
+
 .class p{
     padding: 20px 3px 10px;
 }
@@ -23,60 +27,60 @@
 
 #barbarian{
     background-color: #ad5100;
-    background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");;
+    /* background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png"); */
 }
 
 #bard{
     background-color: #8b50a3;
-    background-image: url("https://www.transparenttextures.com/patterns/brushed-alum-dark.png");
+    /* background-image: url("https://www.transparenttextures.com/patterns/brushed-alum-dark.png"); */
 }
 
 #cleric{
     background-color: #575757;
-    background-image: url("https://www.transparenttextures.com/patterns/cross-scratches.png");
+    /* background-image: url("https://www.transparenttextures.com/patterns/cross-scratches.png"); */
 }
 
 #druid{
     background-color: #154a00;
-    background-image: url("https://www.transparenttextures.com/patterns/dimension.png");
+    /* background-image: url("https://www.transparenttextures.com/patterns/dimension.png"); */
 }
 
 #fighter{
     background-color: #290e00;
-    background-image: url("https://www.transparenttextures.com/patterns/dust.png");
+    /* background-image: url("https://www.transparenttextures.com/patterns/dust.png"); */
 }
 
 #monk{
     background-color: #00676b;
-    background-image: url("https://www.transparenttextures.com/patterns/fabric-1-dark.png");
+    /* background-image: url("https://www.transparenttextures.com/patterns/fabric-1-dark.png"); */
 }
 
 #paladin{
     background-color: #756500;
-    background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+    /* background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png"); */
 }
 
 #ranger{
     background-color: #313800;
-    background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+    /* background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png"); */
 }
 
 #rogue{
     background-color: #292929;
-    background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
+    /* background-image: url("https://www.transparenttextures.com/patterns/cartographer.png"); */
 }
 
 #sorcerer{
     background-color: #660000;
-    background-image: url("https://www.transparenttextures.com/patterns/always-grey.png");
+    /* background-image: url("https://www.transparenttextures.com/patterns/always-grey.png"); */
 }
 
 #warlock{
     background-color: #24004d;
-    background-image: url("https://www.transparenttextures.com/patterns/always-grey.png");
+    /* background-image: url("https://www.transparenttextures.com/patterns/always-grey.png"); */
 }
 
 #wizard{
     background-color: #000d4f;
-    background-image: url("https://www.transparenttextures.com/patterns/always-grey.png");
+    /* background-image: url("https://www.transparenttextures.com/patterns/always-grey.png"); */
 }
