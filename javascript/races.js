@@ -1,14 +1,22 @@
 $(document).ready(function(){
 
     $('.race').click(function(){
-        alert($(this).attr('id'))
+        let source = $(this).children('img').attr('src');
+        let race = $(this).children('h1').text();
 
-        //cover webpage with grey background with alpha
+        $('.race-page img').attr('src', source);
+        $('.race-description h1').text(race);
 
-        //clicking this background returns things to normal, no other actions are available
+        $('.cover').css('display', 'block');
 
-        //on top of background is a description
-
-        //clicking the x returns things to normal
     })
+
+    $('.cover, .close').click(function(){
+
+        $('.cover').hide();
+    });
+
+    $('.race-page').click(function(e){
+        e.stopPropagation();
+    });
 })

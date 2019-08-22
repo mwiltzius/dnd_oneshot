@@ -10,11 +10,125 @@
 }
 
 .race{
-    outline: 1px dotted violet;
     flex: 1;
+    cursor: pointer;
+    overflow: hidden;
+    border-right: 1px solid black;
+    position: relative;
+}
+
+.race:hover{
+    box-shadow: 0 0 10px 7px rgba(0, 0, 0, 0.7);
+    z-index: 1; 
+}
+
+.race img{
+    position: absolute;
+    top: 450px;
+    left: -40px;
+    height: 500px;
+}
+
+.race h1{
+    color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    top: 80px;
+    writing-mode: vertical-lr;
+    text-orientation: sideways-right;
+    font-size: 100px;
+    left: 10px;
+}
+
+#dragonborn{
+    background-color: rgb(29, 30, 131);
+}
+#dwarf{
+    background-color: brown;
+}
+#elf{
+    background-color: rgb(107, 139, 34);
+}
+#gnome{
+    background-color: rgb(18, 94, 52)
+}
+#halfelf{
+    background-color: teal;
+}
+#halfling{
+    background-color: rgb(78, 134, 99);
+}
+#halforc{
+    background-color: rgb(107, 103, 47);
+}
+#human{
+    background-color: rgb(51, 51, 32);
+}
+#tiefling{
+    background-color: rgb(38, 0, 65);
+}
+
+.cover{
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    cursor: pointer;
+    z-index: 3;
+}
+
+.race-page{
+    box-sizing: border-box;
+    width: 100vw;
+    background-color: rgb(245, 245, 245);
+    height: 620px;
+    margin-top: 200px;
+    padding: 50px 100px;
+    cursor: auto;
+    box-shadow: 0 0 20px 2px black;
+    position: relative;
+    overflow: hidden;
+}
+
+.race-page img{
+    display: inline-block;
+    height: 500px;
+    vertical-align: top;
+}
+
+.race-description{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px
+}
+
+.race-description p{
+    margin-top: 50px;
+}
+
+.close{
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    border-bottom-left-radius: 5px;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    right: 0;
+    top: 0;
     cursor: pointer;
 }
 
-#dwarf{
-    background-color: brown;
+.close:after{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: '\2573';
+    font-size: 16px;
+    color: black;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
 }
