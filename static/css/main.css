@@ -30,8 +30,17 @@ li{
     color: white;
 }
 
+li.current{
+    background-color: black;
+    border-bottom: 3px solid orange;
+}
+
+li.current:hover{
+    opacity: 1;
+}
+
 li:hover{
-    background-color: grey;
+    opacity: 0.8;
 }
 
 .home-content{
