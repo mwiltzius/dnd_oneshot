@@ -11,7 +11,7 @@ $(document).ready(function(){
             $(this).attr('expanded', 'true');
 
             $('.class').animate({height: '70px'}, {duration: 300, queue: false});
-            $(this).animate({height: '200px'}, {duration: 300, queue: false});
+            $(this).animate({height: '220px'}, {duration: 300, queue: false});
         }
     })
 
