@@ -43,6 +43,7 @@
     line-height: 23px;
     font-family: 'MedievalSharp';
     font-weight: 700;
+    font-size: 18px;
 }
 
 .content p:first-of-type::first-letter{
