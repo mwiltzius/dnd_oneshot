@@ -5,7 +5,7 @@
     color: rgb(10, 10, 10);
 }
 
-.body{
+body{
     background-color: tan;
     height: 100vh;
 }
@@ -15,6 +15,7 @@ nav{
     position: absolute;
     width: 100vw;
     z-index: 2;
+    top: 0;
 }
 
 ul{
@@ -46,4 +47,8 @@ li:hover{
 .home-content{
     margin: 0 15px;
     padding-top: 100px;
+}
+
+p{
+    
 }

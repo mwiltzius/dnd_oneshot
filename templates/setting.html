@@ -5,11 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="{{url_for('static', filename='css/main.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/setting.css')}}">
+    <link href='https://fonts.googleapis.com/css?family=MedievalSharp' rel='stylesheet'>
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="{{url_for('static', filename='scripts/setting.js')}}"></script>
     <title>Setting</title>
 </head>
 <body>
     <div class="body">
+        <div class="background" style="background-image: url({{url_for('static', filename='assets/giant_map.jpg')}})"></div>
         <nav>
             <ul>
                 <a href="/"><li name="home">Home</li></a>
@@ -18,6 +23,16 @@
                 <a href="/classes"><li name="classes">Classes</li></a>
             </ul>
         </nav>
+        <div class="content">
+            <div class="scroll scroll-top"></div>
+            <div class="scroll-content">
+                <p>Your quest begins in the small, outlying village of Morrin's Crossing, which lies just beyond the edge of the imperial border. It is Lord Trifesker'sterritory, and it is he who sent you this way with instruction to investigate the odd happenings in the town. It's not the first time this has happened in one of the nearby villages, and Trifesker fears that if the problem continues, unrest will likely follow.</p>
+                <p>Your contact is a woman by the name of Swete, one of the masters from the bard's college in Durcin to the west. Your instructions are to aid her to get to the bottom of the mystery and put an end to it - by whatever means necessary. </p>
+                <p>Be warned! This is a world where nature spirits are as real as the gods, where magic is distrusted and bandits roam free. Good luck, adventurers, and godspeed.</p>
+                <p>- The Dungeon Master</p>
+            </div>
+            <div class="scroll scroll-bottom"></div>
+        </div>
     </div>
 </body>
 </html>
